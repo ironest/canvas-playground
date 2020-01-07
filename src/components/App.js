@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Canvas from "./Canvas"
 
 class App extends Component {
 
@@ -6,6 +7,7 @@ class App extends Component {
         return(
             <div>
                 <h1>Welcome To Your Drawing Pad!</h1>
+                <Canvas />
             </div>
         )
     }
